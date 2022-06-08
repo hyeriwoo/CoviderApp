@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">project2Android</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="login_fragment_label">Log In</string>
+    <string name="dashboard_label">Dashboard</string>
+    <string name="third_fragment_label">Third Fragment</string>
+    <string name="fourth_fragment_label">Fourth Fragment</string>
+    <string name="next">Next</string>
+    <string name="list_dashboard">Displays all buildings as a list</string>
+    <string name="building_info_label">Building Information</string>
+    <string name="survey_label">Survey Information</string>
+    <string name="expand_button_desc">When clicked, the list will expand or collapse</string>
+    <string name="proceed_label">Proceed</string>
+    <string name="fulfill_label">When pressed, users will be able to see how they can
+    fulfill the entry requirement</string>
+    <string name="textview">TextView</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="entryreq_header_label">Entry Requirements: </string>
+    <string name="survey_header_label">Optional Survey: </string>
+    <string name="checkIn_label">CHECK IN</string>
+    <string name="buildingListRecycler">buildingListRecycler</string>
+    <string name="dashboard_filter1">Regular</string>
+    <string name="dashboard_filter2">Frequently Visited</string>
+    <string name="dashboard_filter3">In Schedule</string>
+
+    <string name="dashboard_apply">Apply</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="invalid">Invalid</string>
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <string name="covid_result">What was the result of the covid test?</string>
+    <string name="covid_test">Did you take a covid test?</string>
+    <string name="symptoms">Do you have any of the following symptoms?</string>
+    <string name="symptoms1">• Fever or chills</string>
+    <string name="symptoms2">• Cough</string>
+    <string name="symptoms3">• Shortness of breath</string>
+    <string name="symptoms4">• Fatigue</string>
+    <string name="symptoms5">• Muscle or body aches</string>
+    <string name="symptoms6">• Headache</string>
+    <string name="symptoms7">• New loss of taste or smell</string>
+    <string name="symptoms8">• Sore throat</string>
+    <string name="symptoms9">• Congestion or runny nose</string>
+    <string name="symptoms10">• Nausea or vomiting</string>
+    <string name="symptoms11">• Diarrhea</string>
+    <string name="default_notification_channel_id" translatable="false">notifChannel</string>
+
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

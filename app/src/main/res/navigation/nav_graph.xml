@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LogInFragment">
+
+    <fragment
+        android:id="@+id/LogInFragment"
+        android:name="com.example.project2android.login.LogInFragment"
+        android:label="@string/login_fragment_label"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_LogInFragment_to_DashboardFragment"
+            app:destination="@id/DashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/DashboardFragment"
+        android:name="com.example.project2android.DashboardFragment"
+        android:label="@string/dashboard_label"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_DashBoardFragment_to_LogInFragment"
+            app:destination="@id/LogInFragment" />
+        <action
+            android:id="@+id/action_DashboardFragment_to_EntryReqFragment"
+            app:destination="@id/EntryReqFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/EntryReqFragment"
+        android:name="com.example.project2android.EntryReqFragment"
+        android:label="{buildingName}"
+        tools:layout="@layout/fragment_entryreq">
+        <action
+            android:id="@+id/action_EntryReqFragment_to_DashboardFragment"
+            app:destination="@id/DashboardFragment" />
+        <argument
+            android:name="buildingName"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

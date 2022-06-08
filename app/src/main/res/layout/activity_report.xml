@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportActivity"
+    android:id="@+id/reportActivityLayout">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/symptomsQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+            <TextView
+                android:id="@+id/symptoms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptoms" />
+
+            <TextView
+                android:id="@+id/symptoms1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptoms1" />
+            <TextView
+                android:id="@+id/symptoms2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptoms2" />
+            <TextView
+                android:id="@+id/symptoms3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptoms3" />
+            <TextView
+                android:id="@+id/symptoms4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptoms4" />
+            <TextView
+                android:id="@+id/symptoms5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptoms5" />
+            <TextView
+                android:id="@+id/symptoms6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptoms6" />
+            <TextView
+                android:id="@+id/symptoms7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptoms7" />
+            <TextView
+                android:id="@+id/symptoms8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptoms8" />
+            <TextView
+                android:id="@+id/symptoms9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptoms9" />
+            <TextView
+                android:id="@+id/symptoms10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptoms10" />
+            <TextView
+                android:id="@+id/symptoms11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptoms11" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:id="@+id/symptomsGroup">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="30dp">
+            <TextView
+                android:id="@+id/covidTestText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/covid_test" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:id="@+id/covidTestRadio">
+
+                <RadioButton
+                    android:id="@+id/yesCovid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes" />
+
+                <RadioButton
+                    android:id="@+id/noCovid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:id="@+id/covid_result_group">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/covid_result" />
+
+            <RadioGroup
+                android:id="@+id/covid_result_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <RadioButton
+                    android:id="@+id/radioButton10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/positive" />
+
+                <RadioButton
+                    android:id="@+id/radioButton11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/negative" />
+
+                <RadioButton
+                    android:id="@+id/radioButton12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/invalid" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="70dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="@string/submit" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

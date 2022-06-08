@@ -1,6 +1,8 @@
 # project2Android
 
-How to run the app
+An android application that allows users to see information about risk of COVID in USC and instructors to monitor their class depending on students’ health status in their class. USC COVID Dashboard provides information about the current status of pandemic on campus. However, manual contact tracing is labor-intensive and error prone. The app will allow Trojans to provide trustworthy information to keep the Trojan family informed and safe. 
+
+# How to run the app
 
 1. add MAPS_API_KEY=AIzaSyAn4-nM0lulBAR2S3bSVIa0z1vILQuG-uM in local.properties under Gridle.Script
 2. Account for Test student: hyeriwoo@usc.edu
